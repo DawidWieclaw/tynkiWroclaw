@@ -8,33 +8,15 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
-            <br /> I am a final year student pursuing an Integrated MSc (IMSc)
-            in Maths and Computing at BIT Mesra.
-            <br />
-            Additionally, I am currently employed as a software developer at
-            Juspay.
-            <br />
-            <br />
-            Apart from coding, some other activities that I love to do!
+          Nasza firma wynokuje prace budowlane na terenie Wrocławia i okolic do 60km. Wykonujemy lekkie tynki gipsowe oraz cementowo-wapienne za pomocą agregatu tynkarskiego na ścianach oraz stropach wewnątrz jaki i zewnątrz budynku. Nie ma potrzeby wykonywania kolejnych warstw gładzi na ścianach i sufitach. Jeśteśmy w stanie zapewnić wykonanie tynków, w zależności od rodzaju i wilgotności podłoża. Nasza oferta to też spoinowanie połączeń płyt gipsowo-kartonowych bez konieczności stosowania taśm zbrojących. Jesteśmy w stanie zapewnić szybkie i sprawne malowanie powierzchni z posród szerokiej palety kolorów.
+Posiadamy wieloletnie doświadczenie w branży budowlanej po przez wysoką jakość, profesjonalny sprzęt i wiedzę techniczno - budowlaną , zapewniając firmie duże uznanie klientów.
+
           </p>
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> Playing Games
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Travelling
-            </li>
-          </ul>
+
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+          Wycena, doractwo teczniczne, dojazd - GRATIS !!!{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
         </blockquote>
       </Card.Body>
     </Card>

@@ -9,7 +9,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import { ImPointRight } from "react-icons/im";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
-function ResumeNew() {
+function Realisations() {
   const [width, setWidth] = useState(1200);
 
   useEffect(() => {
@@ -20,28 +20,12 @@ function ResumeNew() {
     <div>
       <Container fluid className="resume-section">
       <h1 style={{ fontSize: "2.1em", paddingBottom: "20px"}}>
-      <span className="purple">Świadczymy usługi w zakresie:</span>
+      <span className="purple">Tu chyba lepiej dac link do insta</span>
             </h1>
-      <ul >
-            <li>
-            <ImPointRight /> Tynki maszynowe gipsowe
-            </li>
-            <li>
-            <ImPointRight /> Tynki maszynowe cementowo-wapienne
-            </li>
-            <li>
-            <ImPointRight /> Tynki renowacyjne
-            </li>
-            <li >
-            <ImPointRight /> Tynki dekoracyjne
-            </li>
-            <li>
-            <ImPointRight /> Malowanie
-            </li>
-        </ul>
+
       </Container>
     </div>
   );
 }
 
-export default ResumeNew;
+export default Realisations;

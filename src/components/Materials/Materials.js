@@ -9,7 +9,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import { ImPointRight } from "react-icons/im";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
-function ResumeNew() {
+function Materials() {
   const [width, setWidth] = useState(1200);
 
   useEffect(() => {
@@ -20,23 +20,20 @@ function ResumeNew() {
     <div>
       <Container fluid className="resume-section">
       <h1 style={{ fontSize: "2.1em", paddingBottom: "20px"}}>
-      <span className="purple">Świadczymy usługi w zakresie:</span>
+      <span className="purple">Pracujemy tylko na markowych produktach takich jak:</span>
             </h1>
       <ul >
             <li>
-            <ImPointRight /> Tynki maszynowe gipsowe
+            <ImPointRight /> Dolina Nidy
             </li>
             <li>
-            <ImPointRight /> Tynki maszynowe cementowo-wapienne
+            <ImPointRight /> Knauf
             </li>
             <li>
-            <ImPointRight /> Tynki renowacyjne
+            <ImPointRight /> MitMau
             </li>
             <li >
-            <ImPointRight /> Tynki dekoracyjne
-            </li>
-            <li>
-            <ImPointRight /> Malowanie
+            <ImPointRight /> AlPol
             </li>
         </ul>
       </Container>
@@ -44,4 +41,4 @@ function ResumeNew() {
   );
 }
 
-export default ResumeNew;
+export default Materials;
